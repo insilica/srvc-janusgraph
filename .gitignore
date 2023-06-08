@@ -1,0 +1,18 @@
+*.db
+*.jsonl
+*.log
+
+# Ignore dotfiles by default
+.*
+!.clj-kondo
+.clj-kondo/*
+!.clj-kondo/config.edn
+!.devcontainer
+!.editorconfig
+!.envrc
+!.github
+!.gitignore
+!.vscode
+
+result
+target

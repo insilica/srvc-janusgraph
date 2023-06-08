@@ -1,0 +1,20 @@
+{
+  "calva.evalOnSave": true,
+  "calva.paredit.strictPreventUnmatchedClosingBracket": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "calva.replConnectSequences": [
+      {
+          "name": "srvc.janusgraph",
+          "projectType": "deps.edn",
+          "menuSelections": {
+              "cljAliases": [
+                  "dev"
+              ]
+          },
+          "afterCLJReplJackInCode": "(require 'srvc.janusgraph)",
+          "cljsType": "none"
+      }
+  ]
+}
